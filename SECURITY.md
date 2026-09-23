@@ -1,13 +1,15 @@
-# Security — JDWIN-Public
+# Security · JDWIN-Public
 
 ## Scope
 
-This repository contains a **public product overview** (`README.md`) and the **jdwin symbolic mark** (`assets/jdwin-mark-symbol.svg`). It is not an application codebase and holds no secrets.
+This repository holds a public introduction to JDWIN (`README.md`), the `jdwin-site-brief` skill (`skills/`), and brand
+images (`assets/`). It is not an application codebase and holds no source code, configuration or secrets.
 
-## Reporting
+## Reporting a vulnerability
 
-Security issues affecting the **live product** at [jdwinai.com](https://jdwinai.com) should be reported via [official support](https://jdwinai.com/en/support). Do not disclose vulnerabilities in public GitHub issues.
+Report issues that affect the live service at [jdwin.ai](https://jdwin.ai) privately through
+[jdwin.ai support](https://jdwin.ai/en/support). Please do not open a public issue for a vulnerability.
 
 ## Contributions
 
-Pull requests that add source code, configuration files, credentials, or internal documentation will be declined.
+Pull requests that add source code, configuration, credentials or internal documentation are declined.

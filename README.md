@@ -1,100 +1,123 @@
 <p align="center">
-  <img src="assets/jdwin-mark-symbol.svg" alt="jdwin" width="72" height="72" />
+  <a href="https://jdwin.ai">
+    <img src="assets/jdwin-banner.png" alt="جدوِن · JDWIN — أول دراسة جدوى عكسية في العالم" width="100%" />
+  </a>
 </p>
 
 <p align="center">
-  <strong>jdwin</strong> · جدوِن<br />
-  <em>Reverse-feasibility decision intelligence</em>
+  <a href="https://jdwin.ai"><b>jdwin.ai</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://jdwin.ai/ar/docs">التوثيق</a>
+  &nbsp;·&nbsp;
+  <a href="https://jdwin.ai/en/docs">Docs</a>
+  &nbsp;·&nbsp;
+  <a href="https://jdwin.ai/ar/jadwal">جدوِل</a>
+  &nbsp;·&nbsp;
+  <a href="https://x.com/JDWIN_AI">X</a>
+  &nbsp;·&nbsp;
+  <a href="https://jdwin.ai/ar/wellexe">Wellexe</a>
 </p>
 
-<p align="center">
-  <a href="https://jdwinai.com">Website</a>
-  ·
-  <a href="https://jdwinai.com/en/docs">Documentation</a>
-</p>
+<br />
 
----
+<div dir="rtl" align="right">
 
-## Overview
+## جدوِن في سطرين
 
-**jdwin** (جدوِن) is a decision platform for investment feasibility. Unlike conventional studies that begin on paper, jdwin begins from a **confirmed real-world location** and returns a clear analytical outcome: a **GO** or **NO-GO** verdict within a **certified report**.
+**جدوِن (JDWIN)** محرّك قرار متخصص في **دراسات الجدوى العكسية**. تبدأ الدراسة التقليدية من فكرة ثم تبحث لها عن موقع؛ أما جدوِن فيبدأ من **الموقع الحقيقي على الأرض**، ويقرأ طلبه ومنافسيه وحركته ووصوله، ثم يُسلّمك **مؤشّرًا من 100 وقرارًا واحدًا واضحًا** قبل أن تُنفق ريالًا واحدًا.
 
-This repository is a **public introduction only**. It describes what jdwin is at a product level. It does not publish source code, infrastructure details, credentials, or proprietary methodology.
+> ليس واجهةً فوق نموذج لغوي عام. النماذج اللغوية تفهم وصفك وتصوغ الشرح؛ أما الأرقام فتأتي من قياسات وطبقات بيانات مُسنَدة، ويبيّن كل تقرير مصدر كل طبقة فيه.
 
----
+### كيف تصل إلى القرار
 
-## The product promise
+| | الخطوة | ما يحدث |
+|:-:|---|---|
+| **١** | **صِف مشروعك** | بلغتك الطبيعية: «مقهى مختص في حي الملقا، الرياض» |
+| **٢** | **أكّد المكان** | يُثبَّت الموقع على الخريطة قبل أن يبدأ أي تحليل |
+| **٣** | **استلم القرار** | مؤشّر جدوِن من 100، وقرار من أربع درجات، وتقرير يشرح لماذا |
 
-| Principle | What it means for users |
-|-----------|-------------------------|
-| **Location-first** | Geography is confirmed before analysis begins |
-| **Binary clarity** | The primary verdict is **GO** or **NO-GO** — no ambiguous middle state |
-| **Certified output** | Results are delivered as a structured, attestable report |
-| **Progressive depth** | Additional insight is available through paid tiers without changing the verdict model |
+### نطاقات القرار الأربعة
 
-jdwin is built **Arabic-first** (RTL), with an English experience available on the live product.
+| المؤشّر | القرار | المعنى |
+|:-:|:-:|---|
+| **82 – 100** | 🟢 **امضِ** | نطاق قوي |
+| **65 – 81** | 🔵 **امضِ بحذر** | فرصة مشروطة بمعالجة نقاط محدّدة |
+| **45 – 64** | 🟡 **لا تمضِ بعد** | المخاطر تفوق الفرصة حاليًا |
+| **أقل من 45** | 🔴 **لا تمضِ** | لا يُنصح بالمضي في هذا الموقع |
 
----
+«امضِ» غير المشروطة محجوزة للنطاق الأعلى وحده: درجة 81 هي «امضِ بحذر».
 
-## How users reach a decision
+### ما يقرؤه المحرّك
 
-1. **Express intent** — Describe the sector and opportunity in natural language.  
-2. **Confirm place** — Lock the real location before any analysis runs.  
-3. **Receive judgment** — A single report surface carries progress, indicators, and the final GO / NO-GO outcome.
+أربعة مؤشّرات رئيسية: **الطلب والسوق** · **المنافسة والفجوة** · **الوصول والحركة** · **مستوى المخاطر**، تحتها متغيّرات تفصيلية كتصنيف الشارع ووضوح الواجهة وكثافة الحركة والمواقف وتشبّع المنافسة. ويُصرّح التقرير بكل طبقة تعذّر قياسها بدل أن يخفيها.
 
-The live product handles search, analysis, and reporting. This repository does not document or expose how those systems are implemented.
+### ما لا يدّعيه
 
----
+- لا يقيس جودة التنفيذ أو الإدارة.
+- لا يتنبّأ بالمفاجآت: تغيّر تنظيمي، منافس جديد، مشروع بنية تحتية.
+- الأرقام المالية نطاق استرشادي لا التزام، والدقّة تتفاوت بحسب توفّر البيانات في كل منطقة.
 
-## Who it is for
+### جدوِل
 
-- Investors and founders validating an idea before capital commitment  
-- Executive teams that need one decision-ready document  
-- Analysts comparing locations and retaining an audit trail of past judgments  
-- Partners and institutions — operational access requires formal onboarding
+**جدوِل (Jadwil)** خدمة الوكلاء والجدولة في جدوِن: وكلاء عمل تُوظّفهم على أيام أسبوعك، يراقبون ويجهّزون ويسلّمون، ولا يكتبون أو يرسلون باسمك إلا بعد موافقتك. ← [jdwin.ai/ar/jadwal](https://jdwin.ai/ar/jadwal)
 
-Public marketing and documentation are open to visitors. Interactive analysis, personal reports, and archives require an authenticated account on the live platform.
+</div>
 
----
+<br />
 
-## Repository boundary
+## In English
 
-**Included here**
+**JDWIN (جدوِن)** is a decision engine for **reverse feasibility studies**. A conventional study starts from an idea and looks for a place; JDWIN starts from **the real place**, reads its demand, competition, movement and access, and returns **an index out of 100 and one clear decision** before any money is spent.
 
-- Product definition and positioning (English)  
-- The official jdwin symbolic mark (`assets/jdwin-mark-symbol.svg`)
+| Index | Decision | Meaning |
+|:-:|:-:|---|
+| **82 – 100** | **امضِ** · Proceed | A strong band |
+| **65 – 81** | **امضِ بحذر** · Proceed with care | An opportunity conditional on specific fixes |
+| **45 – 64** | **لا تمضِ بعد** · Do not proceed yet | Risk outweighs opportunity for now |
+| **below 45** | **لا تمضِ** · Do not proceed | Not advised at this location |
 
-**Not included here**
+Describe the venture in plain language, confirm the place on the map, and receive the index, the decision and a report that explains it, with the source of every data layer stated. Arabic-first; location analysis works worldwide.
 
-- Application or engine source code  
-- API keys, environment configuration, or webhook secrets  
-- Internal architecture, models, prompts, or scoring logic  
-- Admin, partner, or operational tooling  
-- Customer data or production telemetry  
+<br />
 
-Security inquiries about the **live service** should be directed through [official support](https://jdwinai.com/en/support), not through public issues on this repository.
+## Skill · `jdwin-site-brief`
 
----
+A ready-to-use **Agent Skill** that turns a business idea and a place into a precise request for JDWIN, and then helps read the decision that comes back. It asks the questions a good request needs (the venture, the exact place, the budget, the customers, the hours), catches the gaps that weaken an analysis, and hands back one line to paste into JDWIN, in Arabic and English.
 
-## Disclaimer
+```
+skills/jdwin-site-brief/
+├── SKILL.md                     the skill
+└── reference/
+    ├── reading-the-decision.md  the four bands, the index, the stated limits
+    └── examples.md              good and weak requests, side by side
+```
 
-jdwin provides structured analytical output to support feasibility decisions. It does not guarantee commercial outcomes, replace regulated professional advice, or assume liability for project execution. Users retain full responsibility for how they act on any verdict.
+**Use it**
 
-Legal terms and privacy practices are published on the product site: [Terms](https://jdwinai.com/en/terms) · [Privacy](https://jdwinai.com/en/privacy).
+- **Claude Code** · copy the folder into `~/.claude/skills/` (or a project's `.claude/skills/`).
+- **Claude apps** · zip the `jdwin-site-brief` folder and upload it under *Settings → Capabilities → Skills*.
+- **Any other agent** · `SKILL.md` is plain Markdown with a short front-matter; give it to the agent as instructions.
 
----
+> The skill contains no part of JDWIN's system. It prepares a request and explains public facts about the result; the analysis itself runs only at [jdwin.ai](https://jdwin.ai).
 
-## Links
+<br />
 
-| | |
+## This repository
+
+| Included | Not included |
 |---|---|
-| **Website** | [jdwinai.com](https://jdwinai.com) |
-| **Documentation** | [jdwinai.com/en/docs](https://jdwinai.com/en/docs) |
-| **Support** | [jdwinai.com/en/support](https://jdwinai.com/en/support) |
-| **Partners** | [jdwinai.com/en/partners](https://jdwinai.com/en/partners) |
+| A public introduction to JDWIN | Application or engine source code |
+| The `jdwin-site-brief` skill | Architecture, models, prompts or scoring logic |
+| The official symbol mark | Keys, configuration or any customer data |
 
----
+Security reports about the live service go to [jdwin.ai support](https://jdwin.ai/en/support), never to public issues. See [SECURITY.md](SECURITY.md).
+
+<br />
 
 <p align="center">
-  <sub>© 2026 jdwin · Public product overview · No source code published</sub>
+  <a href="https://jdwin.ai/ar/terms">الشروط والأحكام</a> · <a href="https://jdwin.ai/ar/privacy">سياسة الخصوصية</a>
+  <br />
+  <sub>© 2026 <a href="https://jdwin.ai/ar/wellexe">Wellexe لتقنية المعلومات</a> · س.ت. 7055046747 · جميع الحقوق محفوظة</sub>
+  <br />
+  <sub>طلب براءة اختراع سعودي SA 1020264706 · تحت الإجراء</sub>
 </p>
